@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: color 0.5s ease-in infinite;
+}
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 40vh;
+}
+
+.heading{
+    font-size: 50px;
+    color: white;
+}
+
+button{
+    padding: 15px;
+margin: 21px 45px;
+border: 5px solid white;
+border-radius: 8px;
+width: 77px;
+}
+
+button a{
+    text-decoration:none;
+    
+
+}
+
+button:hover{
+    background-color: white;
+    color:purple;
+    border:3px solid purple;
+    cursor: pointer;
+}
+
+@media  screen and (max-width:1116px) {
+    .heading{
+        font-size: 30px;
+    }
+}
+
+@keyframes color {
+    0%{
+       background-color: hotpink;
+    }
+    10%{
+        background-color: purple;
+    }
+    20%{
+        background-color: rgb(55, 0, 128);
+    }
+    30%{
+        background-color: rgb(0, 77, 128);
+
+}
+    40%{
+        background-color: rgb(0, 128, 128);
+
+    }
+    50%{
+        background-color: rgb(163, 235, 49);
+
+    }
+    60%{
+        background-color: rgb(241, 245, 21);
+
+    }
+    70%{
+        background-color: rgb(226, 146, 17);
+
+    }
+    80%{
+        background-color: rgb(128, 58, 0);
+
+    }
+    90%{
+        background-color: rgb(128, 9, 0);
+
+    }
+    100%{
+        background-color: rgb(241, 7, 144);
+
+    }
+}
